@@ -1,11 +1,16 @@
 import React from "react";
 import "./styles.css";
 
+import IssueDemo from "./IssueDemo";
+import FixtureDemo from "./FixtureDemo";
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <h1>Issue</h1>
+      <IssueDemo />
+      <h1>Fixture</h1>
+      <FixtureDemo />
+    </>
   );
 }
